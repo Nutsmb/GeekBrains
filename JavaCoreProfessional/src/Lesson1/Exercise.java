@@ -8,13 +8,9 @@ public class Exercise <T extends Object> {
     public static void main(String[] args) {
         ArrayList str = new ArrayList<String>();
         String[] mass  = new String[5];
-        //Integer[] mass  = new Integer[5];
-        //Double[] mass  = new Double[5];
 
         for (int i = 0; i < mass.length; i++) {
             mass[i] = "el" + i;
-            //mass[i] = i;
-            //mass[i] = (double)i;
         }
 
         Elements obj = new Elements(mass);
